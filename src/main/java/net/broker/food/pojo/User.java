@@ -11,8 +11,10 @@ public class User {
     private final String addressCountry;
     private final String image;
     private final int points;
+    private final int range;
+    private final int served;
 
-    public User(int userId, String firstName, String lastName, String addressLine1, String addressLine2, String addressCity, String addressState, String addressCountry, String image, int points) {
+    public User(int userId, String firstName, String lastName, String addressLine1, String addressLine2, String addressCity, String addressState, String addressCountry, String image, int points, int range, int served) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -23,6 +25,8 @@ public class User {
         this.addressCountry = addressCountry;
         this.image = image;
         this.points = points;
+        this.range = range;
+        this.served = served;
     }
 
     public int getUserId() {
@@ -63,5 +67,13 @@ public class User {
 
     public int getPoints() {
         return points;
+    }
+
+    public int getRange() {
+        return range;
+    }
+
+    public int getServed() {
+        return served;
     }
 }
