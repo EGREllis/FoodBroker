@@ -9,9 +9,19 @@
     <servlet-name>example</servlet-name>
     <servlet-class>net.broker.food.servlet.ExampleServlet</servlet-class>
   </servlet>
+  
+  <servlet>
+    <servlet-name>jstl-servlet</servlet-name>
+    <servlet-class>net.broker.food.servlet.JstlServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>example</servlet-name>
     <url-pattern>/example.html</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>jstl-servlet</servlet-name>
+    <url-pattern>/jstl.html</url-pattern>
   </servlet-mapping>
 </web-app>
