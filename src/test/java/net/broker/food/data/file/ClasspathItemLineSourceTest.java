@@ -13,5 +13,6 @@ public class ClasspathItemLineSourceTest {
         Map<Integer,Item> items = itemSource.sourceAll();
         assert items.size() == 5;
         assert items.get(1).getImage().equals("Broker_ToiletRollIcon.png");
+        assert items.get(4).getPointValue() == 15;
     }
 }

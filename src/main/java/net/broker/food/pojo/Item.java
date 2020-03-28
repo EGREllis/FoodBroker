@@ -4,11 +4,13 @@ public class Item {
     private final int id;
     private final String name;
     private final String image;
+    private final int pointValue;
 
-    public Item(int id, String name, String image) {
+    public Item(int id, String name, String image, int pointValue) {
         this.id = id;
         this.name = name;
         this.image = image;
+        this.pointValue = pointValue;
     }
 
     public int getId() {
@@ -21,5 +23,9 @@ public class Item {
 
     public String getImage() {
         return image;
+    }
+    
+    public int getPointValue() {
+        return pointValue;
     }
 }

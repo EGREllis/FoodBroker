@@ -11,7 +11,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public abstract class ItemLineSourceTemplate implements IdentifiableSource<Item> {
-    private static final Pattern ITEM_LINE_PATTERN = Pattern.compile("^([^~]+)~([^~]+)~([^~]+)$");
+    private static final Pattern ITEM_LINE_PATTERN = Pattern.compile("^([^~]+)~([^~]+)~([^~]+)~([^~]+)$");
 
     protected abstract BufferedReader getBufferedReader() throws IOException;
 
@@ -27,7 +27,8 @@ public abstract class ItemLineSourceTemplate implements IdentifiableSource<Item>
                     int id = Integer.parseInt(matcher.group(1));
                     String name = matcher.group(2);
                     String image = matcher.group(3);
-                    Item item = new Item(id, name, image);
+                    int point = Integer.parseInt(matcher.group(4));
+                    Item item = new Item(id, name, image, point);
                     results.put(item.getId(), item);
                 }
             }
