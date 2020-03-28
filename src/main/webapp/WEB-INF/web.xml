@@ -1,8 +1,9 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        version="3.0"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
@@ -15,6 +16,21 @@
     <servlet-class>net.broker.food.servlet.examples.JstlServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>register_form</servlet-name>
+    <jsp-file>/register.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>process_register_form</servlet-name>
+    <servlet-class>net.broker.food.servlet.RegisterFormServlet</servlet-class>
+    <multipart-config>
+      <max-file-size>10000000</max-file-size>
+      <max-request-size>20000000</max-request-size>
+      <file-size-threshold>5000000</file-size-threshold>
+    </multipart-config>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>example</servlet-name>
     <url-pattern>/example.html</url-pattern>
@@ -23,5 +39,15 @@
   <servlet-mapping>
     <servlet-name>jstl-servlet</servlet-name>
     <url-pattern>/jstl.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>register_form</servlet-name>
+    <url-pattern>/register.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>process_register_form</servlet-name>
+    <url-pattern>/submit_register</url-pattern>
   </servlet-mapping>
 </web-app>
