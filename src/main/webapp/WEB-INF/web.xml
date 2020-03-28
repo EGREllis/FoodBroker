@@ -7,12 +7,12 @@
 
   <servlet>
     <servlet-name>example</servlet-name>
-    <servlet-class>net.broker.food.servlet.ExampleServlet</servlet-class>
+    <servlet-class>net.broker.food.servlet.examples.ExampleServlet</servlet-class>
   </servlet>
   
   <servlet>
     <servlet-name>jstl-servlet</servlet-name>
-    <servlet-class>net.broker.food.servlet.JstlServlet</servlet-class>
+    <servlet-class>net.broker.food.servlet.examples.JstlServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>

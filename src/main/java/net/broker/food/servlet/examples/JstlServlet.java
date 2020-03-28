@@ -1,4 +1,4 @@
-package net.broker.food.servlet;
+package net.broker.food.servlet.examples;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
