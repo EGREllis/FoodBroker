@@ -7,9 +7,10 @@
     <body>
         <p>Users:</p>
         <table border="2">
-            <tr><th>First name:</th><th>Last name:</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th><th>Image</th><th>Points</th><th>Range</th><th>Served</th></tr>
+            <tr><th>Id</th><th>First name:</th><th>Last name:</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th><th>Image</th><th>Points</th><th>Range</th><th>Served</th></tr>
             <c:forEach items="${requestScope.users}" var="user">
                 <tr>
+                    <td><c:out value="${user.userId}" /></td>
                     <td><c:out value="${user.firstName}" /></td>
                     <td><c:out value="${user.lastName}" /></td>
                     <td><c:out value="${user.addressLine1}" /></td>
@@ -40,9 +41,9 @@
 
         <p>Transactions:</p>
         <table border="2">
-            <tr><th>User</th><th>Item</th><th>Quantity</th></tr>
+            <tr><th>User id</th><th>Item id</th><th>Quantity</th></tr>
             <c:forEach items="${requestScope.transactions}" var="tran">
-                <tr><td><c:out value="${tran.user.firstName}, ${tran.user.lastName}" /></td><td><c:out value="${tran.item.name}" /></td><td><c:out value="${tran.quantity}" /></td></tr>
+                <tr><td><c:out value="${tran.user.userId}" /></td><td><c:out value="${tran.item.id}" /></td><td><c:out value="${tran.quantity}" /></td></tr>
             </c:forEach>
         </table>
     </body>
