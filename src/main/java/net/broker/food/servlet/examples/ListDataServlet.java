@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 public class ListDataServlet extends HttpServlet {
@@ -21,9 +23,13 @@ public class ListDataServlet extends HttpServlet {
         Map<Integer, Item> item = (Map<Integer,Item>)context.getAttribute(Constants.ITEM_KEY);
         Map<Integer, Transaction> transaction = (Map<Integer,Transaction>)context.getAttribute(Constants.TRANSACTION_KEY);
 
-        req.setAttribute(Constants.USER_KEY, user);
-        req.setAttribute(Constants.ITEM_KEY, item);
-        req.setAttribute(Constants.TRANSACTION_KEY, transaction);
+        List<User> userList = new ArrayList(user.values());
+        List<Item> itemList = new ArrayList(item.values());
+        List<Transaction> transactionList = new ArrayList<>(transaction.values());
+
+        req.setAttribute(Constants.USER_KEY, userList);
+        req.setAttribute(Constants.ITEM_KEY, itemList);
+        req.setAttribute(Constants.TRANSACTION_KEY, transactionList);
         req.getRequestDispatcher("list_data.jsp").forward(req, resp);
     }
 }
