@@ -1,5 +1,7 @@
 package net.broker.food.pojo;
 
+import java.util.Date;
+
 public class User {
     private final int userId;
     private final String firstName;
@@ -13,8 +15,10 @@ public class User {
     private final int points;
     private final int range;
     private final int served;
+    private final String password;
+    private final Date dateOfBirth;
 
-    public User(int userId, String firstName, String lastName, String addressLine1, String addressLine2, String addressCity, String addressState, String addressCountry, String image, int points, int range, int served) {
+    public User(int userId, String firstName, String lastName, String addressLine1, String addressLine2, String addressCity, String addressState, String addressCountry, String image, int points, int range, int served, String password, Date dateOfBirth) {
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -27,6 +31,8 @@ public class User {
         this.points = points;
         this.range = range;
         this.served = served;
+        this.password = password;
+        this.dateOfBirth = dateOfBirth;
     }
 
     public int getUserId() {
@@ -75,5 +81,13 @@ public class User {
 
     public int getServed() {
         return served;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
     }
 }

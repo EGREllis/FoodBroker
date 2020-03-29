@@ -41,6 +41,21 @@
     <jsp-file>/create_account.jsp</jsp-file>
   </servlet>
 
+  <servlet>
+    <servlet-name>submit_new_account</servlet-name>
+    <servlet-class>net.broker.food.servlet.CreateNewAccountServlet</servlet-class>
+    <multipart-config>
+      <max-file-size>10000000</max-file-size>
+      <max-request-size>20000000</max-request-size>
+      <file-size-threshold>5000000</file-size-threshold>
+    </multipart-config>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>submit_new_account</servlet-name>
+    <url-pattern>/submit_new_account</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>create_account_form</servlet-name>
     <url-pattern>/create_account.html</url-pattern>

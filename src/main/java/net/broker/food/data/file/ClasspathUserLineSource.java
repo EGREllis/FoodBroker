@@ -38,7 +38,7 @@ public class ClasspathUserLineSource implements IdentifiableSource<User> {
                     int points = Integer.parseInt(matcher.group(10));
                     int range = Integer.parseInt(matcher.group(11));
                     int served = Integer.parseInt(matcher.group(12));
-                    User user = new User(id, firstName, lastName, line1, line2, city, state, country, image, points, range, served);
+                    User user = new User(id, firstName, lastName, line1, line2, city, state, country, image, points, range, served, null, null);
                     results.put(user.getUserId(), user);
                 }
             }

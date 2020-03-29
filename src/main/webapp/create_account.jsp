@@ -24,7 +24,7 @@
         </script>
     </head>
     <body>
-        <form method="POST" action="submit_new_account">
+        <form method="POST" action="submit_new_account" enctype="multipart/form-data">
         <table style="align:centre;">
             <tr><h1>Create Account</h1></tr>
             <tr><td colspan="6"><h2>Your Name:</h2></td></tr>
@@ -35,16 +35,17 @@
             <tr><td colspan="6"><input class="in" type="text" id="address_2" name="address_2" value="second line of address" onfocus="clear(this.id)" /></td></tr>
             <tr><td colspan="6"><input class="in" type="text" id="city" name="city" value="city" onfocus="clear(this.id)" /></td></tr>
             <tr><td colspan="6"><input class="in" type="text" id="state" name="state" value="state/county" onfocus="clear(this.id)" /></td></tr>
-            <tr><td colspan="6"><input class="in" type="text" id="county" name="county" value="county" onfocus="clear(this.id)" /></td></tr>
             <tr><td colspan="6"><input class="in" type="text" id="country" name="country" value="country" onfocus="clear(this.id)" /></td></tr>
             <tr><td colspan="6"><h2>Birthday:</h2></td></tr>
-            <tr><td colspan="2"><input class="in" type="text" id="dbo_day" name="dbo_day" value="Day" onfocus="clear(this.id)" /></td>
-                <td colspan="2"><input class="in" type="text" id="dbo_month" name="dbo_month" value="Month" onfocus="clear(this.id)" /></td>
-                <td colspan="2"><input class="in" type="text" id="dbo_year" name="dbo_year" value="Year" onfocus="clear(this.id)" /></td></tr>
+            <tr><td colspan="2"><input class="in" type="text" id="dob_day" name="dob_day" value="Day" onfocus="clear(this.id)" /></td>
+                <td colspan="2"><input class="in" type="text" id="dob_month" name="dob_month" value="Month" onfocus="clear(this.id)" /></td>
+                <td colspan="2"><input class="in" type="text" id="dob_year" name="dob_year" value="Year" onfocus="clear(this.id)" /></td></tr>
             <tr><td colspan="6"><h2>Password:</h2></td></tr>
             <tr><td colspan="6"><input class="in" type="password" name="password" value="" /></td></tr>
             <tr><td colspan="6"><h2>Confirm password:</h2></td></tr>
             <tr><td colspan="6"><input class="in" type="password" name="confirm" value="" /></td></tr>
+            <tr><td colspan="6"><h2>Profile picture</h2></td></tr>
+            <tr><td colspan="6"><input type="file" name="photo" value= ""/></td></tr>
             <tr><td colspan="6"><h3><input class="in" type="checkbox" name="terms" value="false" />Agree with <a href="terms.html">Terms & Conditions</a></h3></td></tr>
             <tr><td colspan="6"><input class="in" type="submit" name="submit" id="submit" value="Create Account" /></td></tr>
             <tr><td colspan="6"><h3>Already have an account? <a href="login.html">Login to Account</a></h3></td></tr>
