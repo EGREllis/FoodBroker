@@ -56,6 +56,26 @@
     <servlet-class>net.broker.food.servlet.JSONDataServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>login_form</servlet-name>
+    <jsp-file>/login.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>submit_login</servlet-name>
+    <servlet-class>net.broker.food.servlet.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>submit_login</servlet-name>
+    <url-pattern>/submit_login</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>login_form</servlet-name>
+    <url-pattern>/login.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>json_get</servlet-name>
     <url-pattern>/json.html</url-pattern>

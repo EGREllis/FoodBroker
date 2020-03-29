@@ -28,6 +28,7 @@
 <body style="background-image: url('assets/Broker_ToiletRoll.png')">
     <form action="submit_entry">
         <table style="width:100%">
+            <tr><a href="login.html">Log in</a></tr>
             <tr><image src="assets/Broker_GivingSpree.png" /></tr>
             <tr><td>Community Sharing Space</td></tr>
             <tr><td><input type="radio" name="type" id="recipient" /><label for="recipient">Recipients</label>
