@@ -34,7 +34,7 @@
             <tr><td><input type="radio" name="type" id="recipient" /><label for="recipient">Recipients</label>
                     <input type="radio" name="type" id="donor"/><label for="donor">Donors</label></td></tr>
             <tr><td colspan="2"><input type="text" name="zip_code" id="zip_code"/></td></tr>
-            <tr><td colspan="2"><input type="submit" value="Find My Neighbourhood" id="find" /></td></tr>
+            <tr><td colspan="2"><a href="map.html">Find my neighbourhood</a></td></tr>
             <tr><td>Create an account</td></tr>
             <tr><td><a href="create_account.html">Start Giving</a></td></tr>
         </table>

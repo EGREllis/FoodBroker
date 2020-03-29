@@ -71,6 +71,16 @@
     <servlet-class>net.broker.food.servlet.ProcessDemandServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>map_page</servlet-name>
+    <jsp-file>/map.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>map_page</servlet-name>
+    <url-pattern>/map.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>submit_demand_servlet</servlet-name>
     <url-pattern>/submit_demand</url-pattern>
