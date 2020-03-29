@@ -31,7 +31,7 @@ public class CreateNewAccountServlet extends HttpServlet {
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
         Logger logger = Logger.getLogger(this.getClass().getCanonicalName());
-        Map<Integer,User> users = (Map<Integer,User>)getServletContext().getAttribute(Constants.USER_KEY);
+        Map<Integer,User> users = (Map<Integer,User>)getServletContext().getAttribute(Constants.ALL_USERS_KEY);
         String firstName = request.getParameter("first_name");
         String lastName = request.getParameter("last_name");
         String address1 = request.getParameter("address_1");

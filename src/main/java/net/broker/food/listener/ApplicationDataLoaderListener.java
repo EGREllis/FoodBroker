@@ -25,7 +25,7 @@ public class ApplicationDataLoaderListener implements ServletContextListener {
             Map<Integer, Transaction> transactions = new HardCodedTransactionSource(items, users).sourceAll();
 
             context.setAttribute(Constants.ITEM_KEY, items);
-            context.setAttribute(Constants.USER_KEY, users);
+            context.setAttribute(Constants.ALL_USERS_KEY, users);
             context.setAttribute(Constants.TRANSACTION_KEY, transactions);
         }
     }

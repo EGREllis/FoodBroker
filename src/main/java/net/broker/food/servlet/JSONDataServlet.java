@@ -21,7 +21,7 @@ public class JSONDataServlet extends HttpServlet {
 
         ServletContext context = getServletContext();
 
-        Map<Integer,User> users = (Map<Integer,User>)context.getAttribute(Constants.USER_KEY);
+        Map<Integer,User> users = (Map<Integer,User>)context.getAttribute(Constants.ALL_USERS_KEY);
         Map<Integer,Item> items = (Map<Integer,Item>)context.getAttribute(Constants.ITEM_KEY);
         Map<Integer,Transaction> transactions = (Map<Integer,Transaction>)context.getAttribute(Constants.TRANSACTION_KEY);
 

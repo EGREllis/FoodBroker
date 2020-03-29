@@ -86,6 +86,26 @@
     <url-pattern>/login.html</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>profile</servlet-name>
+    <jsp-file>/profile.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>show_profile</servlet-name>
+    <servlet-class>net.broker.food.servlet.ProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>profile</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>show_profile</servlet-name>
+    <url-pattern>/profile.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>json_get</servlet-name>
     <url-pattern>/json.html</url-pattern>

@@ -20,7 +20,7 @@ public class ListDataServlet extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = getServletContext();
-        Map<Integer, User> user = (Map<Integer,User>)context.getAttribute(Constants.USER_KEY);
+        Map<Integer, User> user = (Map<Integer,User>)context.getAttribute(Constants.ALL_USERS_KEY);
         Map<Integer, Item> item = (Map<Integer,Item>)context.getAttribute(Constants.ITEM_KEY);
         Map<Integer, Transaction> transaction = (Map<Integer,Transaction>)context.getAttribute(Constants.TRANSACTION_KEY);
 
@@ -30,7 +30,7 @@ public class ListDataServlet extends HttpServlet {
         List<Item> itemList = new ArrayList(item.values());
         List<Transaction> transactionList = new ArrayList<>(transaction.values());
 
-        req.setAttribute(Constants.USER_KEY, userList);
+        req.setAttribute(Constants.ALL_USERS_KEY, userList);
         req.setAttribute(Constants.ITEM_KEY, itemList);
         req.setAttribute(Constants.TRANSACTION_KEY, transactionList);
         req.getRequestDispatcher("list_data.jsp").forward(req, resp);
