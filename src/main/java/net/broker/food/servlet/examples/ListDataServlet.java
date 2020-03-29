@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class ListDataServlet extends HttpServlet {
     @Override
@@ -23,6 +24,8 @@ public class ListDataServlet extends HttpServlet {
         Map<Integer, Item> item = (Map<Integer,Item>)context.getAttribute(Constants.ITEM_KEY);
         Map<Integer, Transaction> transaction = (Map<Integer,Transaction>)context.getAttribute(Constants.TRANSACTION_KEY);
 
+        Logger logger = Logger.getLogger(this.getClass().getCanonicalName());
+        logger.info(String.format("Loaded %1$d users, %2$d items, %3$d transactions", user.size(), item.size(), transaction.size()));
         List<User> userList = new ArrayList(user.values());
         List<Item> itemList = new ArrayList(item.values());
         List<Transaction> transactionList = new ArrayList<>(transaction.values());
