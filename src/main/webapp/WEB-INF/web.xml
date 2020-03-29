@@ -31,6 +31,11 @@
     </multipart-config>
   </servlet>
 
+  <servlet>
+    <servlet-name>list_data_servlet</servlet-name>
+    <servlet-class>net.broker.food.servlet.examples.ListDataServlet</servlet-class>
+  </servlet>
+
   <servlet-mapping>
     <servlet-name>example</servlet-name>
     <url-pattern>/example.html</url-pattern>
@@ -50,4 +55,13 @@
     <servlet-name>process_register_form</servlet-name>
     <url-pattern>/submit_register</url-pattern>
   </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>list_data_servlet</servlet-name>
+    <url-pattern>/data.html</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+    <listener-class>net.broker.food.listener.ApplicationDataLoaderListener</listener-class>
+  </listener>
 </web-app>
