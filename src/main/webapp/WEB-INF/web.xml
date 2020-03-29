@@ -51,6 +51,16 @@
     </multipart-config>
   </servlet>
 
+  <servlet>
+    <servlet-name>json_get</servlet-name>
+    <servlet-class>net.broker.food.servlet.JSONDataServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>json_get</servlet-name>
+    <url-pattern>/json.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>submit_new_account</servlet-name>
     <url-pattern>/submit_new_account</url-pattern>

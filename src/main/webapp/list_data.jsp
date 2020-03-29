@@ -7,7 +7,7 @@
     <body>
         <p>Users:</p>
         <table border="2">
-            <tr><th>Id</th><th>First name:</th><th>Last name:</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th><th>Image</th><th>Points</th><th>Range</th><th>Served</th></tr>
+            <tr><th>Id</th><th>First name:</th><th>Last name:</th><th>Address1</th><th>Address2</th><th>City</th><th>State</th><th>Country</th><th>Image</th><th>Points</th><th>Range</th><th>Served</th><th>Password</th><th>Date of birth</th></tr>
             <c:forEach items="${requestScope.users}" var="user">
                 <tr>
                     <td><c:out value="${user.userId}" /></td>
@@ -22,6 +22,8 @@
                     <td><c:out value="${user.points}" /></td>
                     <td><c:out value="${user.range}" /></td>
                     <td><c:out value="${user.served}" /></td>
+                    <td><c:out value="${user.password}" /></td>
+                    <td><c:out value="${user.dateOfBirth}" />/td>
                 </tr>
             </c:forEach>
         </table>
