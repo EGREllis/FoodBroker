@@ -18,7 +18,7 @@
             }
 
             #find {
-                width="100%";
+                width:"100%";
                 background: #26B99A 0% 0% no-repeat padding-box;
                 border-radius: 5px;
                 opacity: 1;

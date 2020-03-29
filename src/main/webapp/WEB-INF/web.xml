@@ -36,6 +36,16 @@
     <servlet-class>net.broker.food.servlet.examples.ListDataServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>create_account_form</servlet-name>
+    <jsp-file>/create_account.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>create_account_form</servlet-name>
+    <url-pattern>/create_account.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>example</servlet-name>
     <url-pattern>/example.html</url-pattern>
