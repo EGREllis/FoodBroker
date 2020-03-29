@@ -19,12 +19,14 @@ public class ApplicationDataLoaderListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent event) {
         ServletContext context = event.getServletContext();
 
-        Map<Integer, User> users = new HardCodedUserSource().sourceAll();
-        Map<Integer, Item> items = new HardCodedItemSource().sourceAll();
-        Map<Integer, Transaction> transactions = new HardCodedTransactionSource(items, users).sourceAll();
+        if (context.getAttribute(Constants.ITEM_KEY) == null) {
+            Map<Integer, User> users = new HardCodedUserSource().sourceAll();
+            Map<Integer, Item> items = new HardCodedItemSource().sourceAll();
+            Map<Integer, Transaction> transactions = new HardCodedTransactionSource(items, users).sourceAll();
 
-        context.setAttribute(Constants.ITEM_KEY, items);
-        context.setAttribute(Constants.USER_KEY, users);
-        context.setAttribute(Constants.TRANSACTION_KEY, transactions);
+            context.setAttribute(Constants.ITEM_KEY, items);
+            context.setAttribute(Constants.USER_KEY, users);
+            context.setAttribute(Constants.TRANSACTION_KEY, transactions);
+        }
     }
 }

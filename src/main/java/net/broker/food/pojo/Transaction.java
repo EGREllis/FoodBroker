@@ -26,4 +26,8 @@ public class Transaction {
     public int getQuantity() {
         return quantity;
     }
+
+    public Transaction updateQuantity(int quantity) {
+        return new Transaction(id, user, item, quantity);
+    }
 }

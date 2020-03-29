@@ -66,6 +66,16 @@
     <servlet-class>net.broker.food.servlet.LoginServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>submit_demand_servlet</servlet-name>
+    <servlet-class>net.broker.food.servlet.ProcessDemandServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>submit_demand_servlet</servlet-name>
+    <url-pattern>/submit_demand</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>submit_login</servlet-name>
     <url-pattern>/submit_login</url-pattern>
