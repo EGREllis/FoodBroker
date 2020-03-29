@@ -28,4 +28,19 @@ public class Item {
     public int getPointValue() {
         return pointValue;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        boolean result = false;
+        if (obj instanceof Item) {
+            Item other = (Item)obj;
+            result = id == other.id;
+        }
+        return result;
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
 }

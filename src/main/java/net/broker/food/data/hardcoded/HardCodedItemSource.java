@@ -15,6 +15,7 @@ public class HardCodedItemSource implements IdentifiableSource<Item> {
         map.put(3, new Item(3, "Cleaner", "Broker_CleanerIcon.png", 10));
         map.put(4, new Item(4, "Hand Wash", "Broker_HandWashIcon.png", 15));
         map.put(5, new Item(5, "Soap", "Broker_SoapIcon.png", 5));
+        map.put(6, new Item(6, "Oxygen", "Broker_Oxygen.png", 20));
         return map;
     }
 }
