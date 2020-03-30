@@ -23,7 +23,7 @@
             }
         </script>
     </head>
-    <body>
+    <body style="background-image: url('assets/Broker_ToiletRoll.png')">
         <form method="POST" action="submit_new_account" enctype="multipart/form-data">
         <table style="align:centre;">
             <tr><h1>Create Account</h1></tr>
