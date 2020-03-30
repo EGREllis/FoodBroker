@@ -1,0 +1,249 @@
+/*
+	@name neighborhood_found
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 375px; height: 812px; margin-left: auto; margin-right: auto;  }
+
+#_bg__neighborhood_found {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 812px;
+	background:rgba(255,255,255,255);
+}
+
+#group_7 {
+	top: 0px;
+	left: -232px;
+	width: 886px;
+	height: 522px;
+}
+
+#screen_shot_2020_03_27_at_7_39_54_pm {
+	top: 0px;
+	left: 0px;
+	width: 886px;
+	height: 522px;
+}
+
+#group_3 {
+	top: 176px;
+	left: 468px;
+	width: 48px;
+	height: 48px;
+}
+
+#map_pointer {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#ellipse_3 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 27px;
+	-ms-border-radius: 14.5px / 14.5px;
+	-o-border-radius: 14.5px / 14.5px;
+	-moz-border-radius: 14.5px / 14.5px;
+	-webkit-border-radius: 14.5px / 14.5px;
+	border-radius: 14.5px / 14.5px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 17px;
+}
+
+#group_4 {
+	top: 146px;
+	left: 513px;
+	width: 48px;
+	height: 49px;
+}
+
+#map_pointer_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 49px;
+}
+
+
+#ellipse_3_ek1 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 28px;
+	-ms-border-radius: 14.5px / 15px;
+	-o-border-radius: 14.5px / 15px;
+	-moz-border-radius: 14.5px / 15px;
+	-webkit-border-radius: 14.5px / 15px;
+	border-radius: 14.5px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek1 {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 17px;
+}
+
+#group_5 {
+	top: 208px;
+	left: 537px;
+	width: 48px;
+	height: 49px;
+}
+
+#map_pointer_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 49px;
+}
+
+
+#ellipse_3_ek2 {
+	top: 6px;
+	left: 11px;
+	width: 26px;
+	height: 28px;
+	-ms-border-radius: 14px / 15px;
+	-o-border-radius: 14px / 15px;
+	-moz-border-radius: 14px / 15px;
+	-webkit-border-radius: 14px / 15px;
+	border-radius: 14px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek2 {
+	top: 14px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#group_6 {
+	top: 91px;
+	left: 479px;
+	width: 48px;
+	height: 48px;
+}
+
+#map_pointer_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#ellipse_3_ek3 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 28px;
+	-ms-border-radius: 14.5px / 15px;
+	-o-border-radius: 14.5px / 15px;
+	-moz-border-radius: 14.5px / 15px;
+	-webkit-border-radius: 14.5px / 15px;
+	border-radius: 14.5px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek3 {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+
+#donors_in_your_neighborhood {
+	top: 23px;
+	left: 445px;
+	width: 122px;
+	height: 12px;
+	font-family: .AppleSystemUIFont;
+	font-size: 8px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#we_have_found_your_neighborhood_ {
+	top: 538px;
+	left: 41px;
+	width: 279px;
+	height: 22px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: center;
+	color:#26b99a;
+}
+
+
+#there_are_50_total_donors {
+	top: 573px;
+	left: 72px;
+	width: 201px;
+	height: 22px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: center;
+	color:#26b99a;
+}
+
+
+#rectangle_33 {
+	top: 648px;
+	left: 44px;
+	width: 299px;
+	height: 45px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:rgba(38,185,154,255);
+}
+
+
+#create_an_account {
+	top: 661px;
+	left: 124px;
+	width: 149px;
+	height: 22px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: center;
+	color:#ffffff;
+}
+
+
+
+/* Add your custom CSS here */
