@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body style="background-image: url('assets/Broker_ToiletRoll.png')">
+  <img src="http://34.71.20.240/food/assets/Broker_GivingSpree.png">
   <form method="POST" action="submit_login">
         <table>
             <tr><th colspan="2"><h1>Login Account</h1></th></tr>
