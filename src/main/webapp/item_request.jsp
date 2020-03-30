@@ -59,7 +59,7 @@
 			<div id="group_11"  >
 				<div id="rectangle_13"  ></div>
 				<div id="request_items" >
-					Request Items
+					<a href="top_giver.html" >Request Items</a>
 				</div>
 
 			</div>
