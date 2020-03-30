@@ -15,7 +15,7 @@ function initMap() {
   });
 
   var infoWindow = new google.maps.InfoWindow({
-    content:"<image src='http://34.71.20.240/food/assets/Broker_ToiletRollIcon.png' />"
+    content:"<a href='http://34.71.20.240/food/item_request.html' ><image src='http://34.71.20.240/food/assets/Broker_ToiletRollIcon.png' /></a>"
   });
 
   marker.addListener('click', function() {
