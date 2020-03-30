@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body style="background-image: url('assets/Broker_ToiletRoll.png')">
   <form method="POST" action="submit_login">
         <table>
             <tr><th colspan="2"><h1>Login Account</h1></th></tr>
