@@ -40,23 +40,23 @@
 				</div>
 
 				<div id="group_4"  >
-					<img src="skins/map_pointer_ek1.png" id="map_pointer_ek1" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek1" />
 					<div id="ellipse_3_ek1"  ></div>
-					<img src="skins/toilet_paper_ek1.png" id="toilet_paper_ek1" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek1" />
 
 				</div>
 
 				<div id="group_5"  >
-					<img src="skins/map_pointer_ek2.png" id="map_pointer_ek2" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek2" />
 					<div id="ellipse_3_ek2"  ></div>
-					<img src="skins/toilet_paper_ek2.png" id="toilet_paper_ek2" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek2" />
 
 				</div>
 
 				<div id="group_6"  >
-					<img src="skins/map_pointer_ek3.png" id="map_pointer_ek3" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek3" />
 					<div id="ellipse_3_ek3"  ></div>
-					<img src="skins/toilet_paper_ek3.png" id="toilet_paper_ek3" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek3" />
 
 				</div>
 				<div id="donors_in_your_neighborhood" >

@@ -91,6 +91,16 @@
     <jsp-file>/top_giver.jsp</jsp-file>
   </servlet>
 
+  <servlet>
+    <servlet-name>item_request</servlet-name>
+    <jsp-file>/item_request.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>item_request</servlet-name>
+    <url-pattern>/item_request.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>top_giver</servlet-name>
     <url-pattern>/top_giver.html</url-pattern>
@@ -115,8 +125,6 @@
     <servlet-name>login_form</servlet-name>
     <url-pattern>/login.html</url-pattern>
   </servlet-mapping>
-
-
 
   <servlet-mapping>
     <servlet-name>profile</servlet-name>

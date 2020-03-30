@@ -1,0 +1,424 @@
+/*
+	@name item_request
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 375px; height: 812px; margin-left: auto; margin-right: auto;  }
+
+#_bg__item_request {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 812px;
+	background:rgba(255,255,255,255);
+}
+
+
+#jaimie_mcalister_xyz_neighborhood_sanfrancisco_ca_ {
+	top: 46px;
+	left: 181px;
+	width: 142px;
+	height: 76px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#say_something {
+	top: 206px;
+	left: 10px;
+	width: 125px;
+	height: 28px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	text-align: center;
+	line-height: 14px;
+	color:#ffffff;
+}
+
+
+#icon_material_menu {
+	top: 18px;
+	left: 13px;
+	width: 27px;
+	height: 18px;
+}
+
+
+#item_request_form {
+	top: 189px;
+	left: 24px;
+	width: 331px;
+	height: 91px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: center;
+	line-height: 16px;
+	color:#707070;
+}
+
+
+#image_1 {
+	top: 46px;
+	left: 55px;
+	width: 110px;
+	height: 116px;
+}
+
+
+#toilet_paper {
+	top: 259px;
+	left: 75px;
+	width: 65px;
+	height: 65px;
+}
+
+
+#washing_hands__1_ {
+	top: 259px;
+	left: 159px;
+	width: 65px;
+	height: 65px;
+}
+
+
+#washing_hands {
+	top: 259px;
+	left: 252px;
+	width: 65px;
+	height: 65px;
+}
+
+
+#pick_items {
+	top: 228px;
+	left: -3px;
+	width: 375px;
+	height: 34.5px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 15px;
+	text-align: center;
+	line-height: 15px;
+	color:#707070;
+}
+
+
+#rolls_ {
+	top: 340px;
+	left: 86px;
+	width: 47px;
+	height: 46px;
+	font-family: Helvetica;
+	font-size: 19px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#sanitizer_ {
+	top: 340px;
+	left: 159px;
+	width: 79px;
+	height: 46px;
+	font-family: Helvetica;
+	font-size: 19px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#wipes {
+	top: 340px;
+	left: 258px;
+	width: 58px;
+	height: 23px;
+	font-family: Helvetica;
+	font-size: 19px;
+	text-align: left;
+	color:#707070;
+}
+
+#group_11 {
+	top: 730px;
+	left: 35px;
+	width: 309px;
+	height: 65px;
+}
+
+#rectangle_13 {
+	top: 0px;
+	left: 0px;
+	width: 309px;
+	height: 65px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:rgba(38,185,154,255);
+}
+
+
+#request_items {
+	top: 26px;
+	left: 86px;
+	width: 114px;
+	height: 19px;
+	font-family: Helvetica;
+	font-size: 16px;
+	text-align: left;
+	color:#ffffff;
+}
+
+#icon_ionic_ios_checkbox_outline {
+	top: 371.5px;
+	left: 91.800048828125px;
+	width: 27px;
+	height: 27px;
+}
+
+#path_4 {
+	top: 0px;
+	left: 0px;
+	width: 27px;
+	height: 27px;
+}
+
+
+#path_5 {
+	top: 8px;
+	left: 6px;
+	width: 15.140869140625px;
+	height: 11.594543457031px;
+}
+
+#icon_ionic_ios_checkbox_outline_ek1 {
+	top: 371.5px;
+	left: 182.80004882812px;
+	width: 27px;
+	height: 27px;
+}
+
+#path_4_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 27px;
+	height: 27px;
+}
+
+
+#path_5_ek1 {
+	top: 8px;
+	left: 6px;
+	width: 15.140869140625px;
+	height: 11.594543457031px;
+}
+
+#icon_ionic_ios_checkbox_outline_ek2 {
+	top: 371.5px;
+	left: 270.80004882812px;
+	width: 27px;
+	height: 27px;
+}
+
+#path_4_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 27px;
+	height: 27px;
+}
+
+
+#path_5_ek2 {
+	top: 8px;
+	left: 6px;
+	width: 15.140869140625px;
+	height: 11.594543457031px;
+}
+
+
+#delivery_method {
+	top: 424px;
+	left: 131px;
+	width: 129px;
+	height: 22px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: center;
+	color:#707070;
+}
+
+
+#porch_drop_off_porch_pickup_curbside_door_pickup_delivery {
+	top: 456px;
+	left: 156px;
+	width: 118px;
+	height: 122px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: left;
+	color:#cccccc;
+}
+
+#group_22 {
+	top: 486px;
+	left: 134px;
+	width: 12px;
+	height: 12px;
+}
+
+#ellipse_1 {
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	-ms-border-radius: 6px / 6px;
+	-o-border-radius: 6px / 6px;
+	-moz-border-radius: 6px / 6px;
+	-webkit-border-radius: 6px / 6px;
+	border-radius: 6px / 6px;
+	border: 2px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#ellipse_2 {
+	top: 3px;
+	left: 3px;
+	width: 4px;
+	height: 3px;
+	-ms-border-radius: 3px / 2.5px;
+	-o-border-radius: 3px / 2.5px;
+	-moz-border-radius: 3px / 2.5px;
+	-webkit-border-radius: 3px / 2.5px;
+	border-radius: 3px / 2.5px;
+	border: 1px solid #707070;
+	background:rgba(101,101,101,255);
+}
+
+#group_1 {
+	top: 463px;
+	left: 134px;
+	width: 12px;
+	height: 12px;
+}
+
+#ellipse_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	-ms-border-radius: 6px / 6px;
+	-o-border-radius: 6px / 6px;
+	-moz-border-radius: 6px / 6px;
+	-webkit-border-radius: 6px / 6px;
+	border-radius: 6px / 6px;
+	border: 2px solid #cccccc;
+	background:rgba(255,255,255,255);
+}
+
+#group_23 {
+	top: 510px;
+	left: 134px;
+	width: 12px;
+	height: 12px;
+}
+
+#ellipse_1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	-ms-border-radius: 6px / 6px;
+	-o-border-radius: 6px / 6px;
+	-moz-border-radius: 6px / 6px;
+	-webkit-border-radius: 6px / 6px;
+	border-radius: 6px / 6px;
+	border: 2px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+#group_24 {
+	top: 534px;
+	left: 134px;
+	width: 12px;
+	height: 12px;
+}
+
+#ellipse_1_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	-ms-border-radius: 6px / 6px;
+	-o-border-radius: 6px / 6px;
+	-moz-border-radius: 6px / 6px;
+	-webkit-border-radius: 6px / 6px;
+	border-radius: 6px / 6px;
+	border: 2px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+#group_25 {
+	top: 560px;
+	left: 134px;
+	width: 12px;
+	height: 12px;
+}
+
+#ellipse_1_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	-ms-border-radius: 6px / 6px;
+	-o-border-radius: 6px / 6px;
+	-moz-border-radius: 6px / 6px;
+	-webkit-border-radius: 6px / 6px;
+	border-radius: 6px / 6px;
+	border: 2px solid #cccccc;
+	background:rgba(255,255,255,255);
+}
+
+
+#rectangle_30 {
+	top: 617px;
+	left: 35px;
+	width: 307px;
+	height: 92px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#special_instructions {
+	top: 626px;
+	left: 45px;
+	width: 137px;
+	height: 20px;
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	text-align: left;
+	color:#707070;
+}
+
+
+
+/* Add your custom CSS here */

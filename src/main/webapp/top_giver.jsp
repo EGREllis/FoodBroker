@@ -25,23 +25,23 @@
 				</div>
 
 				<div id="group_4"  >
-					<img src="skins/map_pointer_ek1.png" id="map_pointer_ek1" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek1" />
 					<div id="ellipse_3_ek1"  ></div>
-					<img src="skins/toilet_paper_ek1.png" id="toilet_paper_ek1" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek1" />
 
 				</div>
 
 				<div id="group_5"  >
-					<img src="skins/map_pointer_ek2.png" id="map_pointer_ek2" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek2" />
 					<div id="ellipse_3_ek2"  ></div>
-					<img src="skins/toilet_paper_ek2.png" id="toilet_paper_ek2" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek2" />
 
 				</div>
 
 				<div id="group_6"  >
-					<img src="skins/map_pointer_ek3.png" id="map_pointer_ek3" />
+					<img src="skins/map_pointer.png" id="map_pointer_ek3" />
 					<div id="ellipse_3_ek3"  ></div>
-					<img src="skins/toilet_paper_ek3.png" id="toilet_paper_ek3" />
+					<img src="skins/toilet_paper.png" id="toilet_paper_ek3" />
 
 				</div>
 				<div id="donors_in_your_neighborhood" >
@@ -83,7 +83,7 @@
 					</div>
 
 				</div>
-				<img src="skins/image_5_ek1.png" id="image_5_ek1" />
+				<img src="skins/image_5.png" id="image_5_ek1" />
 
 				<div id="group_18"  >
 					<img src="skins/image_3.png" id="image_3" />
@@ -93,7 +93,7 @@
 					<div id="_3" >
 						3
 					</div>
-					<img src="skins/image_5_ek2.png" id="image_5_ek2" />
+					<img src="skins/image_5.png" id="image_5_ek2" />
 					<div id="_156_ek1" >
 						156
 					</div>
@@ -126,7 +126,7 @@
 					<div id="_2" >
 						2
 					</div>
-					<img src="skins/image_5_ek3.png" id="image_5_ek3" />
+					<img src="skins/image_5.png" id="image_5_ek3" />
 					<div id="_156_ek3" >
 						156
 					</div>
