@@ -39,3 +39,112 @@ input[type="submit"] {
   text-align: center;
   text-decoration: none;
 }
+
+body {
+    padding-top: 52px;
+}
+
+nav.navbar {
+
+}
+nav.navbar .navbar-header .navbar-toggle {
+    border: 0;
+}
+nav.navbar.navbar-default .navbar-header .navbar-toggle:hover,
+nav.navbar.navbar-default .navbar-header .navbar-toggle:active,
+nav.navbar.navbar-default .navbar-header .navbar-toggle:focus 
+{
+    background-color: white;
+}
+
+.font-color__coral {
+    color: rgba(255,128,134,1);
+}
+.font-color__green {
+    color: rgba(38,185,154,1);
+}
+
+.btn__coral {
+    background-color: rgba(255,128,134,1);
+    color: white;
+}
+.btn__green {
+    background-color: rgba(38,185,154,1);
+    color: white;
+}
+/* page specific styles */
+.profile.recipient-profile {
+    margin-bottom: 20px;
+}
+.profile.recipient-profile .row {
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.profile.recipient-profile .btn-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile.recipient-profile .btn-row button {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.profile.profile-recipient .profile-intro {
+    padding-left: 0;
+    padding-right: 0;
+}
+.profile.recipient-profile .profile-intro .textarea{
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.profile .profile-image img {
+    width: 100%;
+}
+
+.items .row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.items .items-title {
+    margin-bottom: 10px;
+}
+.items .items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-bottom: 20px;
+}
+.items .items-grid .item-pair label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.items .items-grid .item-pair .checkbox {
+    font-align: center;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+.items .items-grid .item-pair input {
+    display: none;
+}
+.items .items-grid .item-pair input+label > .checkbox > i {
+    display: none;
+}
+.items .items-grid .item-pair input:checked+label > .checkbox > i {
+   display: inline; 
+}
+.items .submit-row button {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
