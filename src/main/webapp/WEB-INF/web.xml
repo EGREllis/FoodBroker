@@ -76,6 +76,26 @@
     <jsp-file>/map.jsp</jsp-file>
   </servlet>
 
+  <servlet>
+    <servlet-name>profile</servlet-name>
+    <jsp-file>/profile.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>show_profile</servlet-name>
+    <servlet-class>net.broker.food.servlet.ProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>top_giver</servlet-name>
+    <jsp-file>/top_giver.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>top_giver</servlet-name>
+    <url-pattern>/top_giver.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>map_page</servlet-name>
     <url-pattern>/map.html</url-pattern>
@@ -96,15 +116,7 @@
     <url-pattern>/login.html</url-pattern>
   </servlet-mapping>
 
-  <servlet>
-    <servlet-name>profile</servlet-name>
-    <jsp-file>/profile.jsp</jsp-file>
-  </servlet>
 
-  <servlet>
-    <servlet-name>show_profile</servlet-name>
-    <servlet-class>net.broker.food.servlet.ProfileServlet</servlet-class>
-  </servlet>
 
   <servlet-mapping>
     <servlet-name>profile</servlet-name>

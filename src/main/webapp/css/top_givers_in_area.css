@@ -1,0 +1,715 @@
+/*
+	@name top_givers_in_area
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 375px; height: 812px; margin-left: auto; margin-right: auto;  }
+
+#_bg__top_givers_in_area {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 812px;
+	background:rgba(255,255,255,255);
+}
+
+#group_15 {
+	top: -6px;
+	left: -237px;
+	width: 886px;
+	height: 522px;
+}
+
+#screen_shot_2020_03_27_at_7_39_54_pm {
+	top: 0px;
+	left: 0px;
+	width: 886px;
+	height: 522px;
+}
+
+#group_3 {
+	top: 176px;
+	left: 468px;
+	width: 48px;
+	height: 48px;
+}
+
+#map_pointer {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#ellipse_3 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 27px;
+	-ms-border-radius: 14.5px / 14.5px;
+	-o-border-radius: 14.5px / 14.5px;
+	-moz-border-radius: 14.5px / 14.5px;
+	-webkit-border-radius: 14.5px / 14.5px;
+	border-radius: 14.5px / 14.5px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 17px;
+}
+
+#group_4 {
+	top: 146px;
+	left: 513px;
+	width: 48px;
+	height: 49px;
+}
+
+#map_pointer_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 49px;
+}
+
+
+#ellipse_3_ek1 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 28px;
+	-ms-border-radius: 14.5px / 15px;
+	-o-border-radius: 14.5px / 15px;
+	-moz-border-radius: 14.5px / 15px;
+	-webkit-border-radius: 14.5px / 15px;
+	border-radius: 14.5px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek1 {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 17px;
+}
+
+#group_5 {
+	top: 208px;
+	left: 537px;
+	width: 48px;
+	height: 49px;
+}
+
+#map_pointer_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 49px;
+}
+
+
+#ellipse_3_ek2 {
+	top: 6px;
+	left: 11px;
+	width: 26px;
+	height: 28px;
+	-ms-border-radius: 14px / 15px;
+	-o-border-radius: 14px / 15px;
+	-moz-border-radius: 14px / 15px;
+	-webkit-border-radius: 14px / 15px;
+	border-radius: 14px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek2 {
+	top: 14px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+#group_6 {
+	top: 91px;
+	left: 479px;
+	width: 48px;
+	height: 48px;
+}
+
+#map_pointer_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+
+#ellipse_3_ek3 {
+	top: 5px;
+	left: 10px;
+	width: 27px;
+	height: 28px;
+	-ms-border-radius: 14.5px / 15px;
+	-o-border-radius: 14.5px / 15px;
+	-moz-border-radius: 14.5px / 15px;
+	-webkit-border-radius: 14.5px / 15px;
+	border-radius: 14.5px / 15px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#toilet_paper_ek3 {
+	top: 13px;
+	left: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+
+#donors_in_your_neighborhood {
+	top: 23px;
+	left: 445px;
+	width: 122px;
+	height: 12px;
+	font-family: .AppleSystemUIFont;
+	font-size: 8px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#rectangle_25 {
+	top: 243px;
+	left: -5px;
+	width: 380px;
+	height: 569px;
+	background:rgba(255,255,255,255);
+}
+
+#group_13 {
+	top: 250px;
+	left: 13px;
+	width: 353px;
+	height: 544px;
+}
+
+#top_givers_in_xyz_community {
+	top: 0px;
+	left: 9px;
+	width: 341px;
+	height: 41px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	color:#707070;
+}
+
+
+#image_4 {
+	top: 362px;
+	left: 32px;
+	width: 78px;
+	height: 82px;
+}
+
+
+#_4 {
+	top: 387px;
+	left: 0px;
+	width: 15px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#26b99a;
+}
+
+#group_16 {
+	top: 41px;
+	left: 7px;
+	width: 245px;
+	height: 88px;
+}
+
+#image_1 {
+	top: 0px;
+	left: 36px;
+	width: 67px;
+	height: 70px;
+}
+
+
+#sarah_johnson {
+	top: 6px;
+	left: 123px;
+	width: 127px;
+	height: 24px;
+	font-family: Helvetica Neue;
+	font-size: 17px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#_1 {
+	top: 17px;
+	left: 0px;
+	width: 15px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#image_5 {
+	top: 69px;
+	left: 32px;
+	width: 75px;
+	height: 19px;
+}
+
+
+#_156 {
+	top: 51px;
+	left: 125px;
+	width: 40px;
+	height: 28px;
+	font-family: .AppleSystemUIFont;
+	font-size: 21px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#points {
+	top: 35px;
+	left: 128px;
+	width: 40px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#served {
+	top: 35px;
+	left: 193px;
+	width: 44px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#_10 {
+	top: 51px;
+	left: 203px;
+	width: 29px;
+	height: 30px;
+	font-family: .AppleSystemUIFont;
+	font-size: 22px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#image_5_ek1 {
+	top: 450px;
+	left: 32px;
+	width: 74px;
+	height: 19px;
+}
+
+#group_18 {
+	top: 249px;
+	left: 0px;
+	width: 244px;
+	height: 100px;
+}
+
+#image_3 {
+	top: 0px;
+	left: 32px;
+	width: 78px;
+	height: 75px;
+}
+
+
+#jenny_jones {
+	top: 4px;
+	left: 131px;
+	width: 107px;
+	height: 24px;
+	font-family: Helvetica Neue;
+	font-size: 17px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#_3 {
+	top: 17px;
+	left: 0px;
+	width: 15px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#image_5_ek2 {
+	top: 81px;
+	left: 32px;
+	width: 74px;
+	height: 19px;
+}
+
+
+#_156_ek1 {
+	top: 49px;
+	left: 135px;
+	width: 40px;
+	height: 28px;
+	font-family: .AppleSystemUIFont;
+	font-size: 21px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#points_ek1 {
+	top: 33px;
+	left: 138px;
+	width: 40px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#served_ek1 {
+	top: 33px;
+	left: 205px;
+	width: 44px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#_10_ek1 {
+	top: 49px;
+	left: 215px;
+	width: 29px;
+	height: 30px;
+	font-family: .AppleSystemUIFont;
+	font-size: 22px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#_156_ek2 {
+	top: 411px;
+	left: 131px;
+	width: 40px;
+	height: 28px;
+	font-family: .AppleSystemUIFont;
+	font-size: 21px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#points_ek2 {
+	top: 394px;
+	left: 133px;
+	width: 40px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#served_ek2 {
+	top: 394px;
+	left: 199px;
+	width: 44px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#_10_ek2 {
+	top: 411px;
+	left: 210px;
+	width: 29px;
+	height: 30px;
+	font-family: .AppleSystemUIFont;
+	font-size: 22px;
+	text-align: left;
+	color:#26b99a;
+}
+
+#group_17 {
+	top: 142px;
+	left: 5px;
+	width: 242px;
+	height: 86.000030517578px;
+}
+
+#image_2 {
+	top: 0px;
+	left: 38px;
+	width: 67px;
+	height: 61px;
+}
+
+
+#_2 {
+	top: 16px;
+	left: 0px;
+	width: 15px;
+	height: 25px;
+	font-family: Helvetica Neue;
+	font-size: 18px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#image_5_ek3 {
+	top: 67px;
+	left: 34px;
+	width: 75px;
+	height: 19px;
+}
+
+
+#_156_ek3 {
+	top: 52px;
+	left: 130px;
+	width: 40px;
+	height: 28px;
+	font-family: .AppleSystemUIFont;
+	font-size: 21px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#points_ek3 {
+	top: 34px;
+	left: 133px;
+	width: 40px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#served_ek3 {
+	top: 34px;
+	left: 200px;
+	width: 44px;
+	height: 15px;
+	font-family: .AppleSystemUIFont;
+	font-size: 11px;
+	text-align: left;
+	color:#7e7e7e;
+}
+
+
+#_10_ek3 {
+	top: 52px;
+	left: 210px;
+	width: 29px;
+	height: 30px;
+	font-family: .AppleSystemUIFont;
+	font-size: 22px;
+	text-align: left;
+	color:#26b99a;
+}
+
+
+#johnny_jimbo {
+	top: 6px;
+	left: 128px;
+	width: 119px;
+	height: 24px;
+	font-family: Helvetica Neue;
+	font-size: 17px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#marilyn_manson {
+	top: 366px;
+	left: 131px;
+	width: 126px;
+	height: 22px;
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	text-align: left;
+	color:#707070;
+}
+
+
+#rectangle_15 {
+	top: 479px;
+	left: 12px;
+	width: 325px;
+	height: 65px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:rgba(38,185,154,255);
+}
+
+
+#start_giving {
+	top: 507px;
+	left: 127px;
+	width: 90px;
+	height: 18px;
+	font-family: Helvetica;
+	font-size: 15px;
+	text-align: left;
+	color:#ffffff;
+}
+
+#component_1___1 {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 56px;
+}
+
+#rectangle_8 {
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 56px;
+	background:rgba(255,255,255,255);
+}
+
+
+#search_by_zipcode {
+	top: 15px;
+	left: 58px;
+	width: 177px;
+	height: 39px;
+	overflow: hidden;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+	text-align: left;
+	line-height: 20px;
+	color:#707070;
+}
+
+#group_9 {
+	top: 15px;
+	left: 239px;
+	width: 19.234985351562px;
+	height: 19.234985351562px;
+}
+
+#icon_material_search {
+	top: 0px;
+	left: 0px;
+	width: 19.234985351562px;
+	height: 19.234985351562px;
+}
+
+
+#line_1 {
+	top: 40px;
+	left: 59px;
+	width: 207px;
+	height: 1px;
+}
+
+
+#icon_material_menu {
+	top: 18px;
+	left: 13px;
+	width: 27px;
+	height: 18px;
+}
+
+
+#placings_03 {
+	top: 508px;
+	left: 281px;
+	width: 69px;
+	height: 75px;
+}
+
+
+#placings_02 {
+	top: 300px;
+	left: 281px;
+	width: 69px;
+	height: 76px;
+}
+
+
+#placings_01 {
+	top: 397px;
+	left: 281px;
+	width: 69px;
+	height: 75px;
+}
+
+
+#free_vector_first_place_ribbon__converted__02 {
+	top: 615px;
+	left: 281px;
+	width: 69px;
+	height: 76px;
+}
+
+
+
+/* Add your custom CSS here */
