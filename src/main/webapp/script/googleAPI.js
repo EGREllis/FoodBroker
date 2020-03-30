@@ -13,6 +13,15 @@ function initMap() {
     map: map,
     title: 'Giving Spree'
   });
+
+  var infoWindow = new google.maps.InfoWindow({
+    content:"<image src='http://34.71.20.240/food/assets/Broker_ToiletRollIcon.png' />"
+  });
+
+  marker.addListener('click', function() {
+    infoWindow.open(map, marker);
+  });
+
   arrayOfPins.push(myLatLng);
 }
 
