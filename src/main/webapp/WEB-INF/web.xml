@@ -96,6 +96,26 @@
     <jsp-file>/item_request.jsp</jsp-file>
   </servlet>
 
+  <servlet>
+    <servlet-name>google_test</servlet-name>
+    <jsp-file>/google.jsp</jsp-file>
+  </servlet>
+
+  <servlet>
+    <servlet-name>recipient</servlet-name>
+    <jsp-file>recipient_1.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>recipient</servlet-name>
+    <url-pattern>/recipient.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>google_test</servlet-name>
+    <url-pattern>/google.html</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>item_request</servlet-name>
     <url-pattern>/item_request.html</url-pattern>

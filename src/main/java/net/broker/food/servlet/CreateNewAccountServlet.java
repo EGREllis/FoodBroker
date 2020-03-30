@@ -50,6 +50,7 @@ public class CreateNewAccountServlet extends HttpServlet {
         String password = request.getParameter("password");
 
         Part part = request.getPart("photo");
+        logger.info(String.format("Saving photo submitted as %1$s...", part.getSubmittedFileName()));
         try (FileOutputStream photo = new FileOutputStream(part.getSubmittedFileName());
              InputStream fileData = part.getInputStream()) {
             int read;
@@ -62,6 +63,7 @@ public class CreateNewAccountServlet extends HttpServlet {
         } catch (FileNotFoundException fnfe) {
             throw new RuntimeException(fnfe);
         }
+        logger.info(String.format("Saved photo submitted as %1$s.", part.getSubmittedFileName()));
 
         User user = new User(users.size()+1, firstName, lastName, address1, address2, city, state, country, part.getSubmittedFileName(), 0, 0, 0, password, dateOfBirth);
         users.put(user.getUserId(), user);
