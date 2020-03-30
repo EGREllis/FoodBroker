@@ -19,6 +19,15 @@ public class ProfileServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        process(req, resp);
+    }
+
+    @Override
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        process(request, response);
+    }
+
+    private void process(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext context = req.getServletContext();
         // user info
         logger.info("Getting user info ...");

@@ -68,6 +68,6 @@ public class CreateNewAccountServlet extends HttpServlet {
         User user = new User(users.size()+1, firstName, lastName, address1, address2, city, state, country, part.getSubmittedFileName(), 0, 0, 0, password, dateOfBirth);
         users.put(user.getUserId(), user);
         request.getSession().setAttribute(HTTP_SESSION_USER_ID_KEY, user.getUserId());
-        request.getRequestDispatcher("/profile.jsp").forward(request, response);
+        request.getRequestDispatcher("/profile.html").forward(request, response);
     }
 }

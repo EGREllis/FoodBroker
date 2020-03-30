@@ -8,7 +8,7 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
+        height: 50%;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -32,12 +32,11 @@
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), options);
-        /*
+
         marker = new google.maps.Map({
-            position:{lat: 37.7700, lng: -122.4100},
-            map:map
+            position: sanFran,
+            map: map
         });
-        */
       }
 
     </script>

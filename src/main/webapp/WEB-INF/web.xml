@@ -106,6 +106,16 @@
     <jsp-file>recipient_1.jsp</jsp-file>
   </servlet>
 
+  <servlet>
+    <servlet-name>index_servlet</servlet-name>
+    <servlet-class>net.broker.food.servlet.IndexServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>index_servlet</servlet-name>
+    <url-pattern>/submit_index</url-pattern>
+  </servlet-mapping>
+
   <servlet-mapping>
     <servlet-name>recipient</servlet-name>
     <url-pattern>/recipient.html</url-pattern>

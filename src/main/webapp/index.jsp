@@ -31,8 +31,8 @@
             <tr><a href="login.html">Log in</a></tr>
             <tr><image src="assets/Broker_GivingSpree.png" /></tr>
             <tr><td>Community Sharing Space</td></tr>
-            <tr><td><input type="radio" name="type" id="recipient" /><label for="recipient">Recipients</label>
-                    <input type="radio" name="type" id="donor"/><label for="donor">Donors</label></td></tr>
+            <tr><td><input type="radio" name="type" id="recipient" value="recipient" /><label for="recipient">Recipients</label>
+                    <input type="radio" name="type" id="donor" value="donor" /><label for="donor">Donors</label></td></tr>
             <tr><td colspan="2"><input type="text" name="zip_code" id="zip_code"/></td></tr>
             <tr><td colspan="2"><input type="submit" value="Find my neighbourhood" /></td></tr>
             <tr><td><a href="create_account.html">Create an account</a></td></tr>
